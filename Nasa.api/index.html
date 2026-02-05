@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NASA APOD</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b0d17;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        img {
+            max-width: 90%;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🌌 NASA Astronomy Picture of the Day</h1>
+
+    <button id="btn">Load APOD</button>
+
+    <h2 id="title"></h2>
+    <p id="date"></p>
+
+    <img id="image" />
+
+    <p id="description"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
